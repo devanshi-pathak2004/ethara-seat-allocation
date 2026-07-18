@@ -21,11 +21,16 @@ app = FastAPI(
 )
 
 # CORS — allow the React frontend (and any deployed origin) to call the API.
-origins = os.getenv("CORS_ORIGINS", "*").split(",")
+# Note: the CORS spec forbids combining a wildcard origin ("*") with
+# allow_credentials=True — browsers then drop the Access-Control-Allow-Origin
+# header and block the request. So we only enable credentials when explicit
+# origins are configured; with "*" we disable credentials (we don't use cookies).
+origins = [o.strip() for o in os.getenv("CORS_ORIGINS", "*").split(",") if o.strip()]
+allow_credentials = "*" not in origins
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_credentials=True,
+    allow_credentials=allow_credentials,
     allow_methods=["*"],
     allow_headers=["*"],
 )
