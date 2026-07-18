@@ -10,6 +10,18 @@ queries.
 ![DB](https://img.shields.io/badge/DB-SQLite%20%2F%20PostgreSQL-336791)
 ![Tests](https://img.shields.io/badge/tests-11%20passing-brightgreen)
 
+## 🔗 Live Demo
+
+| | URL |
+|---|---|
+| **Frontend (app)** | https://ethara-seat-web.onrender.com |
+| **Backend API** | https://ethara-seat-api.onrender.com |
+| **API docs (Swagger)** | https://ethara-seat-api.onrender.com/docs |
+
+> Hosted on Render's free tier — services sleep after inactivity, so the **first**
+> request may take ~50s to wake. Open the backend `/docs` first to warm it up.
+> Demo identity for the AI assistant: `amit@ethara.ai`.
+
 ---
 
 ## ✨ Features

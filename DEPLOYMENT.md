@@ -82,11 +82,15 @@ docker compose up --build
 - [ ] AI assistant answers *"Where is my seat? My email is amit@ethara.ai"*.
 - [ ] `CORS_ORIGINS` set to the frontend origin (tighten from `*` for production).
 
-## Submission URLs (fill in after deploying)
+## Submission URLs (LIVE)
 
 | Item | URL |
 |------|-----|
-| Live frontend | `https://…` |
-| Live backend | `https://…` |
-| Swagger / API docs | `https://…/docs` |
-| GitHub repository | `https://github.com/…` |
+| Live frontend | https://ethara-seat-web.onrender.com |
+| Live backend | https://ethara-seat-api.onrender.com |
+| Swagger / API docs | https://ethara-seat-api.onrender.com/docs |
+| GitHub repository | https://github.com/devanshi-pathak2004/ethara-seat-allocation |
+
+> **Note (free tier):** both services sleep after ~15 min of inactivity, so the
+> first request after idle can take ~50 seconds to wake. Subsequent requests are
+> fast. Open the backend `/docs` first to warm it up before demoing the frontend.
