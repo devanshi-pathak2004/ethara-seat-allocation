@@ -1,0 +1,27 @@
+# Local one-command stack: FastAPI backend + built React frontend.
+# Usage:  docker compose up --build
+# Frontend -> http://localhost:5173   Backend -> http://localhost:8000/docs
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - CORS_ORIGINS=*
+    volumes:
+      - backend_data:/app
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # Point the browser build at the backend. For a real deploy replace
+        # with the public backend URL.
+        VITE_API_URL: http://localhost:8000
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  backend_data:

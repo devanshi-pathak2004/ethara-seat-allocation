@@ -1,0 +1,51 @@
+employee_code,name,email,department,role,joining_date,status,project,allocation_status,seat
+ETH00001,Amit Sharma,amit@ethara.ai,Engineering,Software Engineer,2024-10-08,Active,Mydreed,Allocated,D6-25
+ETH00002,David Farouk,david.farouk@ethara.ai,HR,Software Engineer,2025-08-27,Active,Indigo,Allocated,A1-01
+ETH00003,Aisha Gupta,aisha.gupta@ethara.ai,Growth,Associate,2024-08-26,Active,Indigo,Allocated,A1-02
+ETH00004,Divya Kumar,divya.kumar@ethara.ai,Growth,QA Engineer,2025-10-27,Active,Preed,Allocated,B8-06
+ETH00005,Vikram Iyer,vikram.iyer@ethara.ai,Design,Intern,2024-01-07,Active,bedegreed,Allocated,C10-25
+ETH00006,Sofia Iyer,sofia.iyer@ethara.ai,Data Science,Data Analyst,2024-06-08,Active,Indreed,Allocated,B9-21
+ETH00007,Aisha Sato,aisha.sato@ethara.ai,DevOps,Data Analyst,2024-04-09,Active,Kaary,Allocated,A5-15
+ETH00008,Noah Patel,noah.patel@ethara.ai,Growth,Senior Engineer,2025-04-15,Active,bedegreed,Allocated,C11-01
+ETH00009,Aisha Mehta,aisha.mehta@ethara.ai,Support,Data Analyst,2025-10-05,Active,Kaary,Allocated,A5-16
+ETH00010,Chen Lopez,chen.lopez@ethara.ai,Data Science,UX Designer,2024-02-16,Active,Indreed,Allocated,B9-23
+ETH00011,Carlos Nair,carlos.nair@ethara.ai,QA,DevOps Engineer,2025-01-24,Active,Mered,Allocated,C2-08
+ETH00012,Grace Roy,grace.roy@ethara.ai,DevOps,Product Manager,2025-01-14,Active,Mered,Allocated,C2-09
+ETH00013,Zara Lopez,zara.lopez@ethara.ai,Design,Scrum Master,2025-09-15,Active,Preed,Allocated,B8-08
+ETH00014,Leo Novak,leo.novak@ethara.ai,QA,Manager,2025-01-23,Active,Serry,Allocated,C7-19
+ETH00015,Carlos Verma,carlos.verma@ethara.ai,Data Science,Software Engineer,2024-02-27,Active,Oreed,Allocated,B2-05
+ETH00016,Lucia Iyer,lucia.iyer@ethara.ai,Data Science,Associate,2024-03-08,Active,Oreed,Allocated,B2-06
+ETH00017,Yuki Aziz,yuki.aziz@ethara.ai,Finance,Tech Lead,2025-02-09,Active,Serfy,Allocated,D5-09
+ETH00018,Omar Das,omar.das@ethara.ai,Growth,UX Designer,2025-07-28,Active,Kaary,Allocated,A5-17
+ETH00019,Anna Costa,anna.costa@ethara.ai,Data Science,Tech Lead,2025-01-05,Active,Serry,Allocated,C7-20
+ETH00020,Layla Farouk,layla.farouk@ethara.ai,Product,Tech Lead,2024-02-18,Active,Mered,Allocated,C2-10
+ETH00021,Leo Rossi,leo.rossi@ethara.ai,Product,QA Engineer,2025-09-02,Active,bedegreed,Allocated,C11-02
+ETH00022,Ali Novak,ali.novak@ethara.ai,QA,Scrum Master,2025-06-25,Active,Indigo,Allocated,A1-03
+ETH00023,Maria Iyer,maria.iyer@ethara.ai,DevOps,Senior Engineer,2025-10-18,Active,Serfy,Allocated,D5-11
+ETH00024,Anna Roy,anna.roy@ethara.ai,Engineering,Intern,2025-04-09,Active,Serfy,Allocated,D5-12
+ETH00025,Tariq Singh,tariq.singh@ethara.ai,Product,Manager,2025-06-03,Active,Serfy,Allocated,D5-14
+ETH00026,Tariq Kumar,tariq.kumar@ethara.ai,DevOps,Tech Lead,2024-06-05,Active,Serry,Allocated,C7-22
+ETH00027,Isla Sharma,isla.sharma@ethara.ai,DevOps,DevOps Engineer,2025-09-05,Active,Indigo,Allocated,A1-04
+ETH00028,Maria Kim,maria.kim@ethara.ai,Data Science,Software Engineer,2024-11-10,Active,Preed,Allocated,B8-09
+ETH00029,Peter Farouk,peter.farouk@ethara.ai,Finance,Senior Engineer,2024-03-28,Active,Serry,Allocated,C7-23
+ETH00030,Omar Müller,omar.müller@ethara.ai,Finance,Scrum Master,2025-11-06,Active,Mydreed,Allocated,D7-01
+ETH00031,Noah Rossi,noah.rossi@ethara.ai,Growth,Intern,2024-08-04,Active,Preed,Allocated,B8-10
+ETH00032,Mei Costa,mei.costa@ethara.ai,DevOps,DevOps Engineer,2025-11-18,Active,Serry,Allocated,C7-24
+ETH00033,Vikram Wright,vikram.wright@ethara.ai,Data Science,Senior Engineer,2024-09-10,Active,Oreed,Allocated,B2-08
+ETH00034,Priya Reddy,priya.reddy@ethara.ai,Data Science,Software Engineer,2025-08-25,Active,Indreed,Allocated,B9-24
+ETH00035,Sara Reddy,sara.reddy@ethara.ai,Engineering,Data Analyst,2024-03-10,Active,Indreed,Allocated,B9-25
+ETH00036,Tariq Das,tariq.das@ethara.ai,Finance,Product Manager,2024-10-12,Active,Serry,Allocated,C8-01
+ETH00037,Omar Haddad,omar.haddad@ethara.ai,Finance,QA Engineer,2024-09-05,Active,Preed,Allocated,B8-11
+ETH00038,David Nair,david.nair@ethara.ai,HR,Data Analyst,2025-11-05,Active,bedegreed,Allocated,C11-03
+ETH00039,Kenji Novak,kenji.novak@ethara.ai,Product,Software Engineer,2024-02-25,Active,bedegreed,Allocated,C11-04
+ETH00040,Sofia Nair,sofia.nair@ethara.ai,Data Science,Product Manager,2024-09-11,Active,Serry,Allocated,C8-02
+ETH00041,Vikram Müller,vikram.müller@ethara.ai,Design,UX Designer,2025-03-08,Active,Opreed,Allocated,A9-25
+ETH00042,Emma Lopez,emma.lopez@ethara.ai,Growth,Senior Engineer,2025-03-29,Active,Indigo,Allocated,A1-05
+ETH00043,Marco Sharma,marco.sharma@ethara.ai,Data Science,Tech Lead,2024-04-05,Active,bedegreed,Allocated,C11-06
+ETH00044,Layla Haddad,layla.haddad@ethara.ai,HR,Software Engineer,2024-08-06,Active,Mydreed,Allocated,D7-02
+ETH00045,Arjun Sharma,arjun.sharma@ethara.ai,QA,DevOps Engineer,2025-02-03,Active,Serfy,Allocated,D5-15
+ETH00046,Anna Aziz,anna.aziz@ethara.ai,Data Science,UX Designer,2024-06-07,Active,Preed,Allocated,B8-12
+ETH00047,Sara Chen,sara.chen@ethara.ai,Engineering,Software Engineer,2024-11-17,Active,Kaary,Allocated,A5-18
+ETH00048,Sam Roy,sam.roy@ethara.ai,Growth,Senior Engineer,2024-02-28,Active,Mydreed,Allocated,D7-03
+ETH00049,John Lopez,john.lopez@ethara.ai,Data Science,QA Engineer,2025-11-22,Active,Indreed,Allocated,B10-01
+ETH00050,Peter Das,peter.das@ethara.ai,Support,Software Engineer,2025-08-15,Active,Kaary,Allocated,A5-20

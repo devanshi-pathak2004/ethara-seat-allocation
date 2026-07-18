@@ -1,0 +1,14 @@
+# Render Blueprint — one-click deploy of the backend API.
+# In the Render dashboard: New + > Blueprint > point at this repo.
+services:
+  - type: web
+    name: ethara-seat-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m app.seed_if_empty && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: PYTHON_VERSION
+        value: "3.12.7"
