@@ -26,6 +26,8 @@ app = FastAPI(
 # header and block the request. So we only enable credentials when explicit
 # origins are configured; with "*" we disable credentials (we don't use cookies).
 origins = [o.strip() for o in os.getenv("CORS_ORIGINS", "*").split(",") if o.strip()]
+if not origins:  # blank / misconfigured env var -> allow all (don't break the app)
+    origins = ["*"]
 allow_credentials = "*" not in origins
 app.add_middleware(
     CORSMiddleware,
